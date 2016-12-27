@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "jQuery in Browser",
+  "version": "1.0",
+
+  "description": "Adds jquery to the browser to you can play around and debug",
+
+  "content_scripts":[
+    {
+      "matches": ["<all_urls>"],
+      "js": ["jqueryBrowser.js"]
+    }
+  ]
+}
